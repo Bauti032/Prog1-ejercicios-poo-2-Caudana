@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj": {}
+    "C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\Practicacs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj": {
+    "C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\Practicacs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj",
+        "projectUniqueName": "C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\Practicacs.csproj",
         "projectName": "Practicacs",
-        "projectPath": "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj",
-        "packagesPath": "C:\\Users\\UCSE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\obj\\",
+        "projectPath": "C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\Practicacs.csproj",
+        "packagesPath": "C:\\Users\\Bautista\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\UCSE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bautista\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
