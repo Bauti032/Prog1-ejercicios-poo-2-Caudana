@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj": {}
+    "c:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj": {
+    "c:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj",
+        "projectUniqueName": "c:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj",
         "projectName": "Practicacs",
-        "projectPath": "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj",
+        "projectPath": "c:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\Practicacs.csproj",
         "packagesPath": "C:\\Users\\UCSE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\obj\\",
+        "outputPath": "c:\\Users\\UCSE\\Desktop\\PracticaCS\\PracticasNet\\Practicacs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

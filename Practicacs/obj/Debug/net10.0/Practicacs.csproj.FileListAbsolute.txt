@@ -1,0 +1,15 @@
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\bin\Debug\net10.0\Practicacs.exe
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\bin\Debug\net10.0\Practicacs.deps.json
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\bin\Debug\net10.0\Practicacs.runtimeconfig.json
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\bin\Debug\net10.0\Practicacs.dll
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\bin\Debug\net10.0\Practicacs.pdb
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\Practicacs.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\Practicacs.AssemblyInfoInputs.cache
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\Practicacs.AssemblyInfo.cs
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\Practicacs.csproj.CoreCompileInputs.cache
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\Practicacs.sourcelink.json
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\Practicacs.dll
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\refint\Practicacs.dll
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\Practicacs.pdb
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\Practicacs.genruntimeconfig.cache
+c:\Users\UCSE\Desktop\PracticaCS\PracticasNet\Practicacs\obj\Debug\net10.0\ref\Practicacs.dll
