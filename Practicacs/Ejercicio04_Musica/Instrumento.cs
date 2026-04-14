@@ -1,4 +1,4 @@
-namespace Practicacs.Ejercicio04;
+namespace Practicacs.Ejercicio04_Musica;
 
 public class Instrumento
 {
