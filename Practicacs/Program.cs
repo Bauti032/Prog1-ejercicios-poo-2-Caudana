@@ -4,6 +4,7 @@ using Practicacs.Ejercicio03_Estacionamiento;
 using Practicacs.Ejercicio04_Musica;
 using Practicacs.Ejercicio05_Encomienda;
 using Practicacs.Ejercicio06_Turnos;
+using Practicacs.Ejercicio07_PlatCurso;
 
 Console.WriteLine("1. Veterinaria");
 Console.WriteLine("2. Gimnasio");
@@ -11,6 +12,7 @@ Console.WriteLine("3. Estacionamiento");
 Console.WriteLine("4. Musica");
 Console.WriteLine("5. Encomienda");
 Console.WriteLine("6. Turnos");
+Console.WriteLine("7. Sistemas Cursos");
 Console.WriteLine("Que Ejercicio queres probar?: ");
 int op = Convert.ToInt32(Console.ReadLine());
 switch (op)
@@ -32,6 +34,9 @@ switch (op)
         break;
         case 6:
         Ejercicio06_Turnos();
+        break;
+        case 7:
+        Ejercicio07_PlatCurso();
         break;
         default:
         Console.WriteLine("Opcion no valida. Ponelo bien, gil de goma.");
@@ -150,4 +155,21 @@ static void Ejercicio06_Turnos()
     sistturno.ListarTurnos(p1, "2024-07-01");
     Console.WriteLine($"Disponibilidad de {p1.Nombre} el 2024-07-01 a las 10:00: {sistturno.VerificarDisponibilidad(p1, "2024-07-01", "10:00")}");
     Console.WriteLine($"Disponibilidad de {p1.Nombre} el 2024-07-01 a las 11:00: {sistturno.VerificarDisponibilidad(p1, "2024-07-01", "11:00")}");
+}
+static void Ejercicio07_PlatCurso()
+{
+    Curso c1 = new Curso("Excel", "Manejas excel como boludin", 20, 2);
+    Curso c2 = new Curso("Programacion", "Aca no sabes quien sos", 15, 2);
+    Alumno a1 = new Alumno("Bautista", "caudanabautista002@gmail.com");
+    Alumno a2 = new Alumno("Nicolas", "nicoalvarez002@gmail.com");
+
+    Sistemacurso sistc = new Sistemacurso();
+
+    sistc.AgregarAlumno(c1, a1);
+    sistc.AgregarAlumno(c1, a2);
+    sistc.AgregarAlumno(c2, a2);
+    sistc.AgregarAlumno(c2, a1);
+    sistc.CalcularHoras(a1);
+    sistc.DarBajaAlumno(c1, a1);
+    sistc.ListarInscriptos(c2);
 }
