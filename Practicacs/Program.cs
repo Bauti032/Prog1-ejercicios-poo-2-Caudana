@@ -3,13 +3,14 @@ using Practicacs.Ejericio02_Gimnasio;
 using Practicacs.Ejercicio03_Estacionamiento;
 using Practicacs.Ejercicio04_Musica;
 using Practicacs.Ejercicio05_Encomienda;
-
+using Practicacs.Ejercicio06_Turnos;
 
 Console.WriteLine("1. Veterinaria");
 Console.WriteLine("2. Gimnasio");
 Console.WriteLine("3. Estacionamiento");
 Console.WriteLine("4. Musica");
 Console.WriteLine("5. Encomienda");
+Console.WriteLine("6. Turnos");
 Console.WriteLine("Que Ejercicio queres probar?: ");
 int op = Convert.ToInt32(Console.ReadLine());
 switch (op)
@@ -28,6 +29,9 @@ switch (op)
         break;
         case 5:
         Ejercicio05_Encomienda();
+        break;
+        case 6:
+        Ejercicio06_Turnos();
         break;
         default:
         Console.WriteLine("Opcion no valida. Ponelo bien, gil de goma.");
@@ -125,4 +129,25 @@ static void Ejercicio05_Encomienda()
     sisten.AvanzarEncomienda(en1);
     sisten.AvanzarEncomienda(en2);
     sisten.ListarEncomiendas();
+}
+static void Ejercicio06_Turnos()
+{
+    Peluquero p1 = new Peluquero("Luca");
+    Peluquero p2 = new Peluquero("Dario");
+
+    Turno t1 = new Turno("2024-07-01", "10:00", "Bautista", "Corte de pelo");
+    Turno t2 = new Turno("2024-07-01", "11:00", "Micho", "Coloracion");
+    Turno t3 = new Turno("2024-07-01", "10:00", "Tito", "Peinado");
+
+    SistTurno sistturno = new SistTurno();
+    sistturno.AgregarPeluquero(p1);
+    sistturno.AgregarPeluquero(p2);
+
+    sistturno.AsignarTurno(p1, t1);
+    sistturno.AsignarTurno(p1, t2);
+    sistturno.AsignarTurno(p1, t3);
+
+    sistturno.ListarTurnos(p1, "2024-07-01");
+    Console.WriteLine($"Disponibilidad de {p1.Nombre} el 2024-07-01 a las 10:00: {sistturno.VerificarDisponibilidad(p1, "2024-07-01", "10:00")}");
+    Console.WriteLine($"Disponibilidad de {p1.Nombre} el 2024-07-01 a las 11:00: {sistturno.VerificarDisponibilidad(p1, "2024-07-01", "11:00")}");
 }
