@@ -1,14 +1,15 @@
 ﻿using Practicacs.Ejercicio01_Veterinaria;
 using Practicacs.Ejericio02_Gimnasio;
 using Practicacs.Ejercicio03_Estacionamiento;
-using Practicacs.Ejercicio04;
-
+using Practicacs.Ejercicio04_Musica;
+using Practicacs.Ejercicio05_Encomienda;
 
 
 Console.WriteLine("1. Veterinaria");
 Console.WriteLine("2. Gimnasio");
 Console.WriteLine("3. Estacionamiento");
 Console.WriteLine("4. Musica");
+Console.WriteLine("5. Encomienda");
 Console.WriteLine("Que Ejercicio queres probar?: ");
 int op = Convert.ToInt32(Console.ReadLine());
 switch (op)
@@ -24,6 +25,9 @@ switch (op)
         break;
         case 4:
         Ejercicio04_Musica();
+        break;
+        case 5:
+        Ejercicio05_Encomienda();
         break;
         default:
         Console.WriteLine("Opcion no valida. Ponelo bien, gil de goma.");
@@ -106,4 +110,19 @@ static void Ejercicio04_Musica()
     }
 
     Console.WriteLine($"Valor total del inventario: {tienda.CalcularValorTotalInventario()}");
+}
+static void Ejercicio05_Encomienda()
+{
+    Encomienda en1 = new Encomienda("123DA", "Bautista", "Dario");
+    Encomienda en2 = new Encomienda("111AD", "Micho", "Tito");
+
+    SistEncomienda sisten = new SistEncomienda();
+    sisten.AgregarEncomienda(en1);
+    sisten.AgregarEncomienda(en2);
+
+    sisten.AvanzarEncomienda(en1);
+    sisten.AveriguarEncomienda(en1);
+    sisten.AvanzarEncomienda(en1);
+    sisten.AvanzarEncomienda(en2);
+    sisten.ListarEncomiendas();
 }
