@@ -5,6 +5,7 @@ using Practicacs.Ejercicio04_Musica;
 using Practicacs.Ejercicio05_Encomienda;
 using Practicacs.Ejercicio06_Turnos;
 using Practicacs.Ejercicio07_PlatCurso;
+using Practicacs.Ejerciocio08_Prestamos;
 
 Console.WriteLine("1. Veterinaria");
 Console.WriteLine("2. Gimnasio");
@@ -13,6 +14,7 @@ Console.WriteLine("4. Musica");
 Console.WriteLine("5. Encomienda");
 Console.WriteLine("6. Turnos");
 Console.WriteLine("7. Sistemas Cursos");
+Console.WriteLine("8. Prestamos");
 Console.WriteLine("Que Ejercicio queres probar?: ");
 int op = Convert.ToInt32(Console.ReadLine());
 switch (op)
@@ -37,6 +39,9 @@ switch (op)
         break;
         case 7:
         Ejercicio07_PlatCurso();
+        break;
+        case 8:
+        Ejercicio08_Prestamos();
         break;
         default:
         Console.WriteLine("Opcion no valida. Ponelo bien, gil de goma.");
@@ -172,4 +177,18 @@ static void Ejercicio07_PlatCurso()
     sistc.CalcularHoras(a1);
     sistc.DarBajaAlumno(c1, a1);
     sistc.ListarInscriptos(c2);
+}
+static void Ejercicio08_Prestamos()
+{
+    Cliente cliente1 = new Cliente("Bautista", "20-20202020-2");
+    Prestamo prestamo1 = new Prestamo(10000, 0.2, 12);
+    Prestamo prestamo2 = new Prestamo(5000, 0.15, 6);   
+    SistemaPrestamo sistprestamo = new SistemaPrestamo();
+    sistprestamo.AgregarPrestamo(cliente1, prestamo1);
+    sistprestamo.AgregarPrestamo(cliente1, prestamo2);
+    sistprestamo.CalcularValorCuota(cliente1);
+    sistprestamo.CancelarPrestamo(cliente1, 1);
+    sistprestamo.CalcularDeudaTotalVigente(cliente1);
+    sistprestamo.VerificarNuevoPrestamo(cliente1);
+    
 }

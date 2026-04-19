@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xTlWO4qZGbU=",
+  "dgSpecHash": "b/TgCmUE7R0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\Practicacs.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\Practicacs.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Bautista\\Desktop\\PracticasNet\\Practicacs\\Practicacs.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
